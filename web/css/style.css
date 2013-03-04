@@ -103,7 +103,7 @@ body {
   padding: 0 5px;
 }
 
-.modal {
+.modal.large {
   width: 960px;
   margin-left: -480px;
 }

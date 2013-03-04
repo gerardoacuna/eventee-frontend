@@ -1,0 +1,5 @@
+(function($) {
+
+	$('#invite').popover();
+		
+})(jQuery);
