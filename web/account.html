@@ -10,6 +10,11 @@
   <body>
     <div class="container">
 
+      <ul class="nav nav-pills pull-right">
+        <li><a href="account.html">My Account</a></li>
+        <li><a href="#">Sign Out</a></li>
+      </ul>
+
       <div class="masthead">
         <h3 class="muted">Eventee</h3>
         <div class="navbar">
@@ -17,6 +22,7 @@
             <div class="container">
               <ul class="nav">
                 <li class="active"><a href="main.html">My Events</a></li>
+                <li><a href="#">My Friends' Events</a></li>
                 <li><a href="#">My Events</a></li>
               </ul>
             </div>
@@ -25,49 +31,39 @@
       </div>
 
       <div class="row">
-        <div class="span6 offset3">
+        <div class="span8 offset2">
+          <h1>Account</h1>
+          <hr>
           <form action="">
             <div class="control-group">
-              <label class="control-label" for="inputPassword">Event Name</label>
+              <label class="control-label" for="inputPassword">First Name</label>
               <div class="controls">
                 <input type="text" placholder="Event Name">
               </div>
             </div>
 
             <div class="control-group">
-              <label class="control-label" for="inputPassword">Event url</label>
+              <label class="control-label" for="inputPassword">Last Name</label>
               <div class="controls">
-                <input type="text" placeholder="Event url">
+                <input type="text" placholder="Event Name">
               </div>
             </div>
 
             <div class="control-group">
-              <label class="control-label" for="inputPassword">Event Name</label>
+              <label class="control-label" for="inputPassword">Password</label>
               <div class="controls">
-                <textarea name="" id="" cols="30" rows="10" placeholder=""></textarea>
+                <input type="password" placeholder="Event url">
               </div>
             </div>
 
-            <a href="#" class="btn btn-large">Upload Photo</a>
-
-            <div class="row">
-              <div class="span3">
-                <div class="control-group">
-                  <label class="control-label" for="inputPassword">Starts at</label>
-                  <div class="controls">
-                    <input type="text" placeholder="Starts at">
-                  </div>
-                </div>
-              </div>
-              <div class="span3">
-                <div class="control-group">
-                  <label class="control-label" for="inputPassword">Ends at</label>
-                  <div class="controls">
-                    <input type="text" placeholder="Ends at">
-                  </div>
-                </div>
+            <div class="control-group">
+              <label class="control-label" for="inputPassword">Confirm Password</label>
+              <div class="controls">
+                <input type="password" placeholder="Event url">
               </div>
             </div>
+
+            <input type="submit" value="Save Changes" class="btn btn-large btn-primary">
 
           </form>
         </div>

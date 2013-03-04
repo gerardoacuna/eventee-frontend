@@ -92,3 +92,18 @@ body {
   margin-bottom: 15px;
   padding: 7px 9px;
 }
+
+.link-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.link-list li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.modal {
+  width: 960px;
+  margin-left: -480px;
+}
